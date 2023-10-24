@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{D301870A-BDE0-4FFC-BE8A-FE5C9133D011}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberApp", "PrimeNumberApp\PrimeNumberApp.csproj", "{C3EACED9-294A-4E90-8E97-4502C9074925}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D301870A-BDE0-4FFC-BE8A-FE5C9133D011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D301870A-BDE0-4FFC-BE8A-FE5C9133D011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D301870A-BDE0-4FFC-BE8A-FE5C9133D011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EACED9-294A-4E90-8E97-4502C9074925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EACED9-294A-4E90-8E97-4502C9074925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EACED9-294A-4E90-8E97-4502C9074925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EACED9-294A-4E90-8E97-4502C9074925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
