@@ -2,7 +2,22 @@
 Console.WriteLine("Hello, World!");
 
 //---------------------------------------Classes-------------------------------
+CustomerManager manager = new CustomerManager();
+manager.Update();
+Console.ReadLine();
 
+
+
+
+//Props
+CustomerManager2 manager2 = new CustomerManager2();
+manager2.CustomerId = 35;
+CustomerManager2 manager3 = new CustomerManager2()
+{
+    CustomerId = 5
+};
+manager2.Update();
+Console.ReadLine();
 class CustomerManager
 {
     public void Add()
@@ -15,11 +30,6 @@ class CustomerManager
     }
 
 }
-CustomerManager manager = new CustomerManager();
-manager.Update();
-Console.ReadLine();
-
-//Props
 class CustomerManager2
 {
     public int CustomerId { get; set; }
@@ -33,14 +43,9 @@ class CustomerManager2
     }
 
 }
-CustomerManager2 manager2 = new CustomerManager2();
-manager2.CustomerId = 35;
-CustomerManager2 manager3 = new CustomerManager2()
-{
-    CustomerId = 5
-};
-manager2.Update();
-Console.ReadLine();
+
+
+
 
 //Encapsulation
 
