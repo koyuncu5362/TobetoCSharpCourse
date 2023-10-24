@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
+
 //-----------------Value Types-------------
 
 //int
@@ -51,3 +52,14 @@ var number19 = 10;
 
 Console.WriteLine("number7 is {0}", number19);
 Console.ReadLine();
+
+
+
+
+//enums
+Console.WriteLine(Days.Friday);
+enum Days
+{
+    Monday = 10, Tuesday, Wednesday, Thursday, Friday, Saturday
+}
+
