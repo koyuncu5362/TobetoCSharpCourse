@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{42B78FD5-13ED-4FE9-90FC-09EE9DBC24C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "Math\Math.csproj", "{CDFD003F-2041-4FA2-838C-E19C57399B0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{42B78FD5-13ED-4FE9-90FC-09EE9DBC24C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42B78FD5-13ED-4FE9-90FC-09EE9DBC24C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42B78FD5-13ED-4FE9-90FC-09EE9DBC24C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFD003F-2041-4FA2-838C-E19C57399B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFD003F-2041-4FA2-838C-E19C57399B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFD003F-2041-4FA2-838C-E19C57399B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFD003F-2041-4FA2-838C-E19C57399B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
